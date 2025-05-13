@@ -2,7 +2,7 @@
 
 **samp-android** is a project developed by **Eagle Vision** with the goal of bringing the **San Andreas Multiplayer (SA-MP)** experience to Android devices.
 
-Our aim is to create a modern, stable, and user-friendly SA-MP client for mobile devices, with support for multiple ABI architectures (such as `armeabi-v7a`, `arm64-v8a`, and `x86_64`), ensuring compatibility with a wide range of Android smartphones and tablets.
+Our aim is to create a modern, stable, and user-friendly SA-MP client for mobile devices, with support for multiple ABI architectures (such as `armeabi-v7a`, `arm64-v8a`), ensuring compatibility with a wide range of Android smartphones and tablets.
 
 ## 🎯 Project Goals
 
