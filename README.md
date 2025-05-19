@@ -1,6 +1,6 @@
-# samp-crossplay (Android & PC)
+# SA-MP Modern (Android & PC)
 
-**samp-crossplay** is a project developed by **Eagle Vision** with the goal of bringing the **San Andreas Multiplayer (SA-MP)** experience to both **Android** and **PC (Windows)** platforms — with planned **crossplay support** between them.
+**SA-MP Modern** is a project developed by **Eagle Vision** with the goal of bringing the **San Andreas Multiplayer (SA-MP)** experience to both **Android** and **PC (Windows)** platforms — with planned **crossplay support** between them.
 
 Our mission is to deliver a modern, stable, and user-friendly SA-MP client experience across devices, while preserving the core gameplay and ensuring compatibility with public and private servers.
 
@@ -40,7 +40,7 @@ Stay tuned for development updates and future testing phases.
 
 You can download the latest Android version here:
 
-- 🔗 [Latest Android APK Release](https://github.com/samp-android/samp-android/releases/)
+- 🔗 [Latest Android APK Release](https://github.com/eaglevision-sa-mp/sa-mp-modern/releases)
 
 > ⚠ Make sure to enable "Install from unknown sources" on your Android device before installing the APK.
 
@@ -53,13 +53,13 @@ The PC version is **not yet available**, but will be released in future updates.
 Stay connected and engage with other players and developers:
 
 - 💬 [Discord Server](https://discord.com/invite/CPpME3wY)
-- 🐞 [Report Bugs and Suggestions](https://github.com/samp-android/samp-android/issues)
+- 🐞 [Report Bugs and Suggestions](https://github.com/eaglevision-sa-mp/sa-mp-modern/issues)
 
 ---
 
 ## 🛠️ How to Contribute
 
-This repository is public, but **the source code is not open** for direct contributions. We appreciate any feedback or suggestions. If you encounter an issue or have ideas for improvement, please open an issue in the [Issues section](https://github.com/samp-android/samp-android/issues).
+This repository is public, but **the source code is not open** for direct contributions. We appreciate any feedback or suggestions. If you encounter an issue or have ideas for improvement, please open an issue in the [Issues section](https://github.com/eaglevision-sa-mp/sa-mp-modern/issues).
 
 ---
 
@@ -70,7 +70,7 @@ If you experience a bug, please follow the steps below to report it:
 - **Unexpected crashes**: Navigate to the app's directory on your device and submit the `crash_log.txt` file.
 - **Other issues**: Record a short video showing the issue and include a clear description.
 
-More details: [bug report template](https://github.com/samp-android/samp-android/issues/new?template=bug-report.md)
+More details: [bug report template](https://github.com/eaglevision-sa-mp/sa-mp-modern/issues/new?template=bug-report.md)
 
 ---
 
