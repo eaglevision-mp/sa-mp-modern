@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Before opening a new issue, please search existing issues:  
-        https://github.com/automultiplayer/AutoM/issues
+        https://github.com/eaglevision-mp/sa-mp-modern/issues
 
   - type: dropdown
     id: platform
