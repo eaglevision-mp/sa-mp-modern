@@ -1,46 +1,64 @@
----
-name: bug-report
-about: Create a report to help us improve
-title: "[BUG or CRASH]"
-labels: bug
-assignees: MrXEnginner
+name: Bug Report (Android or PC)
+description: Report bugs on Android or PC platforms, including crash logs or dump files if available.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a new issue, please search existing issues:  
+        https://github.com/automultiplayer/AutoM/issues
 
----
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Select the platform where the issue occurred.
+      options:
+        - Android
+        - PC
+    validations:
+      required: true
 
-### **Bug Report**
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and current behavior
+      description: Concise description of the behavior you expect and what actually occurs.
+    validations:
+      required: true
 
-**Relate any technical issues so developers can address them promptly. Follow the instructions below to ensure a complete and clear report.**
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide clear and concise steps for us to reliably reproduce this issue.
+    validations:
+      required: true
 
----
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Any other useful info you want to add (e.g. system specs, Android version, PC OS, hardware).
+    validations:
+      required: false
 
-### 🚨 **How to Report a Bug?**
-To help developers resolve bugs quickly, please follow these steps when reporting an issue:
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Videos
+      description: Provide a screenshot and/or video demonstrating the issue.
+    validations:
+      required: false
 
----
-
-#### 🔴 **In Case of Unexpected Crashes or Bugs**
-
-1. Navigate to the app's directory: *** Android > data > com.eaglevision.samp.rp > files > SAMP ***
-
-2. Copy the file `crash_log.txt`.
-
-3. Submit the `crash_log.txt` file in the corresponding crash report issue and provide any details you can about the incident.
-
-4. **Record a video**: Show the error happening on video.
-
-5. **Detailed Description**: Include the following:
-- What were you doing when the issue occurred?
-- Any error messages received (if applicable)?
-- Steps to reproduce the issue (if possible).
-
----
-
-### 🔎 **Meaning of Symbols**
-
-- ✅ **Resolved Bug**: The issue has been identified and fixed.
-- ⚠️ **Unidentified Bug**: The issue is still under investigation.
-
----
-
-**Thanks for your contribution in improving samp-android!**  
-_This helps our team fix problems faster and make the app better._
+  - type: textarea
+    id: crash_log
+    attributes:
+      label: Crash Log / Dump (if any)
+      description: |
+        Please paste the content of your crash log here.  
+        On Android, it is usually located at: `SAMP/crash_log.txt` inside the game data folder.  
+        On PC, it is usually located at: `logs/crash_log.txt`.  
+        Including this helps greatly in diagnosing crashes.
+    validations:
+      required: false
